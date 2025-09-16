@@ -8,7 +8,7 @@ int main() {
     printf("First number: ");  //fix number 1
     scanf("%d", &a);
 
-    printf("Second number: ");
+    printf("Second number: "); //fix number 2
     scanf("%d", &b);
 
     sum = a + b;
