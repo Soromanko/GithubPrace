@@ -5,6 +5,7 @@ int main() {
     int b;
     int sum;
     int odcitani;
+    int nasobeni;
 
     printf("First number: ");  //fix number 1
     scanf("%d", &a);
@@ -16,8 +17,11 @@ int main() {
 
     odcitani = a - b;
 
+    nasobeni = a * b;
+
     printf("The sum is: %d\n", sum); //this is the sum
     printf("The number is: %d\n", odcitani);
+    printf("Multiplication is: %d\n", nasobeni);
 
     return 0;
 }
