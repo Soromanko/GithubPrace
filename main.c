@@ -5,7 +5,7 @@ int main() {
     int b;
     int sum;
 
-    printf("First number: ");
+    printf("First number: ");  //fix number 1
     scanf("%d", &a);
 
     printf("Second number: ");
